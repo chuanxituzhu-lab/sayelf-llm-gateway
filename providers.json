@@ -1,0 +1,50 @@
+{
+  "anthropic": {
+    "protocol": "anthropic",
+    "base_url": "https://api.anthropic.com",
+    "env_key": "ANTHROPIC_API_KEY",
+    "default_model": "claude-sonnet-5-5"
+  },
+  "openai": {
+    "protocol": "openai",
+    "base_url": "https://api.openai.com/v1",
+    "env_key": "OPENAI_API_KEY",
+    "default_model": "gpt-4o-mini"
+  },
+  "deepseek": {
+    "protocol": "openai",
+    "base_url": "https://api.deepseek.com/v1",
+    "env_key": "DEEPSEEK_API_KEY",
+    "default_model": "deepseek-chat"
+  },
+  "deepseek-anthropic": {
+    "protocol": "anthropic",
+    "base_url": "https://api.deepseek.com/anthropic",
+    "env_key": "DEEPSEEK_API_KEY",
+    "default_model": "deepseek-chat"
+  },
+  "qwen": {
+    "protocol": "openai",
+    "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+    "env_key": "DASHSCOPE_API_KEY",
+    "default_model": "qwen-plus"
+  },
+  "zhipu": {
+    "protocol": "openai",
+    "base_url": "https://open.bigmodel.cn/api/paas/v4",
+    "env_key": "ZHIPU_API_KEY",
+    "default_model": "glm-4-flash"
+  },
+  "moonshot": {
+    "protocol": "openai",
+    "base_url": "https://api.moonshot.cn/v1",
+    "env_key": "MOONSHOT_API_KEY",
+    "default_model": "moonshot-v1-8k"
+  },
+  "gemini": {
+    "protocol": "openai",
+    "base_url": "https://generativelanguage.googleapis.com/v1beta/openai",
+    "env_key": "GEMINI_API_KEY",
+    "default_model": "gemini-2.5-flash"
+  }
+}
